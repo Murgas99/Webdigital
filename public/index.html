@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Encuesta de Transformación Digital</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="contenedor-principal">
+        <h1 class="display-4 text-center font-weight-bold titulo-efecto">Encuesta de Transformación Digital</h1>
+        <div>
+            <p class="descripcion">
+                Esta encuesta forma parte de un estudio diseñado para apoyar la selección y adopción del modelo de transformación digital más adecuado para pequeñas empresas
+                <br><br>
+                <strong>¿Por qué es importante?</strong>                 
+                <br>
+                La transformación digital es fundamental para mantenerse competitivo en el mercado actual. Conocer el modelo adecuado para tu negocio te ayudará a:
+                <div class="lista">
+                    <div class="item">Maximizar la eficiencia operativa y los recursos.</div>
+                    <div class="item">Implementar tecnologías clave que impulsen el crecimiento.</div>
+                    <div class="item">Adaptarte rápidamente a las tendencias del mercado.</div>
+                    <div class="item">Mejorar la interacción con tus clientes y la personalización de tus productos o servicios.</div>
+                </div>
+                <p class="descripcion">
+                <strong>Instrucciones</strong>
+                <br>
+                Por favor, responde todas las preguntas de manera sincera y completa...
+            </p>
+            </p>
+        </div>
+   
+   
+  <form id="encuestaForm">
+
+
+    <!-- Campo para el nombre del responsable -->
+  <div>
+    <label for="nombreResponsable">Nombre del responsable:</label>
+    <input type="text" id="nombreResponsable" name="nombreResponsable" required>
+  </div>
+
+  <!-- Campo para el nombre de la empresa -->
+  <div>
+    <label for="nombreEmpresa">Nombre de la empresa:</label>
+    <input type="text" id="nombreEmpresa" name="nombreEmpresa" required>
+  </div>
+
+  <!-- Campo para el NIT -->
+  <div>
+    <label for="nit">NIT:</label>
+    <input type="text" id="nit" name="nit" required>
+  </div>
+
+    <!-- Pregunta 1 -->
+    <div>
+        <label>1. ¿Qué cambios busca en su modelo de negocio?</label><br>
+        <input type="radio" name="q1" value="MIT"> A. Innovar en productos o servicios existentes <br>
+        <input type="radio" name="q1" value="RocaSalvatella"> B. Establecer una visión clara <br>
+        <input type="radio" name="q1" value="Rogers"> C. Adoptar un enfoque centrado en el cliente <br>
+        <input type="radio" name="q1" value="Incipy"> D. Transformar y adaptar el negocio <br>
+      </div>
+  
+      <!-- Pregunta 2 -->
+      <div>
+        <label>2. ¿Qué visión tiene para el futuro de su empresa?</label><br>
+        <input type="radio" name="q2" value="MIT"> A. Ser una empresa líder en innovación <br>
+        <input type="radio" name="q2" value="RocaSalvatella"> B. Expandirse en el mercado <br>
+        <input type="radio" name="q2" value="Rogers"> C. Re imaginar la relación con los clientes <br>
+        <input type="radio" name="q2" value="Incipy"> D. Desarrollar una visión a largo plazo <br>
+      </div>
+  
+      <!-- Pregunta 3 -->
+      <div>
+        <label>3. ¿Cómo aspira a innovar en su modelo de negocio?</label><br>
+        <input type="radio" name="q3" value="MIT"> A. Adoptando nuevas tecnologías <br>
+        <input type="radio" name="q3" value="RocaSalvatella"> B. Mejorando continuamente los productos <br>
+        <input type="radio" name="q3" value="Rogers"> C. Incorporando nuevas formas de innovación <br>
+        <input type="radio" name="q3" value="Incipy"> D. Transformación digital de los procesos <br>
+      </div>
+  
+      <!-- Pregunta 4 -->
+      <div>
+        <label>4. ¿Qué cambios le gustaría implementar en su estrategia comercial?</label><br>
+        <input type="radio" name="q4" value="MIT"> A. Transformación digital para mejorar la experiencia del cliente <br>
+        <input type="radio" name="q4" value="RocaSalvatella"> B. Innovar en la estrategia de marketing <br>
+        <input type="radio" name="q4" value="Rogers"> C. Desarrollar estrategias de marketing basadas en datos <br>
+        <input type="radio" name="q4" value="Incipy"> D. Integrar nuevas tecnologías en marketing <br>
+      </div>
+
+      <!-- Pregunta 5 -->
+      <div>
+        <label>5. ¿Cómo espera mejorar su posicionamiento en el mercado?</label><br>
+        <input type="radio" name="q5" value="MIT"> A. Incrementando la eficiencia operativa <br>
+        <input type="radio" name="q5" value="RocaSalvatella"> B. Mejorando la experiencia del cliente <br>
+        <input type="radio" name="q5" value="Rogers"> C. Aprovechando el análisis de datos <br>
+        <input type="radio" name="q5" value="Incipy"> D. Utilizando herramientas digitales para expandir la visibilidad <br>
+      </div>
+
+      <!-- Pregunta 6 -->
+      <div>
+        <label>6. ¿Qué mejoras busca en el diseño de sus servicios?</label><br>
+        <input type="radio" name="q6" value="MIT"> A. Implementar mejoras en la experiencia del cliente <br>
+        <input type="radio" name="q6" value="RocaSalvatella"> B. Personalizar los servicios basándose en las necesidades <br>
+        <input type="radio" name="q6" value="Rogers"> C. Desarrollar productos innovadores <br>
+        <input type="radio" name="q6" value="Incipy"> D. Mejorar los servicios a través de la digitalización <br>
+      </div>
+
+      <!-- Pregunta 7 -->
+      <div>
+        <label>7. ¿Qué innovaciones considera necesarias para su sector?</label><br>
+        <input type="radio" name="q7" value="MIT"> A. Adopción de tecnologías emergentes <br>
+        <input type="radio" name="q7" value="RocaSalvatella"> B. Introducción de procesos automatizados <br>
+        <input type="radio" name="q7" value="Rogers"> C. Incorporación de análisis de datos avanzados <br>
+        <input type="radio" name="q7" value="Incipy"> D. Implementación de nuevas tecnologías <br>
+      </div>
+ 
+      <!-- Pregunta 8 -->
+      <div>
+        <label>8. ¿Cómo aspira a optimizar la cadena de suministro?</label><br>
+        <input type="radio" name="q8" value="MIT"> A. Digitalizando la gestión de la cadena de suministro <br>
+        <input type="radio" name="q8" value="RocaSalvatella"> B. Integrando procesos automatizados <br>
+        <input type="radio" name="q8" value="Rogers"> C. Utilizando tecnologías innovadoras <br>
+        <input type="radio" name="q8" value="Incipy"> D. Implementando soluciones digitales <br>
+      </div>
+  
+      <!-- Pregunta 9 -->
+      <div>
+        <label>9. ¿Qué cambios le gustaría ver en la oferta de productos/servicios?</label><br>
+        <input type="radio" name="q9" value="MIT"> A. Diversificación de productos/servicios mediante tecnología <br>
+        <input type="radio" name="q9" value="RocaSalvatella"> B. Personalización de la oferta basada en la interacción directa con clientes <br>
+        <input type="radio" name="q9" value="Rogers"> C. Introducción de nuevos productos centrados en la innovación continua <br>
+        <input type="radio" name="q9" value="Incipy"> D. Ampliación de la oferta mediante digitalización <br>
+      </div>
+
+      <!-- Pregunta 10 -->
+      <div>
+        <label>10. ¿Qué rol quiere que jueguen las redes sociales en su negocio?</label><br>
+        <input type="radio" name="q10" value="MIT"> A. Ampliar la presencia digital <br>
+        <input type="radio" name="q10" value="RocaSalvatella"> B. Incrementar el uso para mejorar la interacción <br>
+        <input type="radio" name="q10" value="Rogers"> C. Utilizar redes sociales para marketing digital <br>
+        <input type="radio" name="q10" value="Incipy"> D. Aprovechar las redes sociales para conectar eficazmente con los clientes <br>
+      </div>
+
+      <!-- Pregunta 11 -->
+      <div>
+        <label>11. ¿Cómo desea utilizar la tecnología para mejorar la eficiencia?</label><br>
+        <input type="radio" name="q11" value="MIT"> A. Implementar tecnologías emergentes <br>
+        <input type="radio" name="q11" value="RocaSalvatella"> B. Utilizar la automatización y metodologías ágiles <br>
+        <input type="radio" name="q11" value="Rogers"> C. Adopción de herramientas tecnológicas para decisiones basadas en datos <br>
+        <input type="radio" name="q11" value="Incipy"> D. Digitalizar y automatizar procesos <br>
+      </div>
+
+      <!-- Pregunta 12 -->
+      <div>
+        <label>12. ¿Qué mejoras espera lograr en la gestión del talento humano?</label><br>
+        <input type="radio" name="q12" value="MIT"> A. Fomentar la innovación y colaboración entre equipos <br>
+        <input type="radio" name="q12" value="RocaSalvatella"> B. Promover una cultura ágil y autónoma <br>
+        <input type="radio" name="q12" value="Rogers"> C. Desarrollar nuevas competencias en los empleados <br>
+        <input type="radio" name="q12" value="Incipy"> D. Crear un entorno colaborativo enfocado en el crecimiento digital <br>
+      </div>
+
+      <!-- Pregunta 13 -->
+      <div>
+        <label>13. ¿Cómo espera adaptarse a las tendencias del mercado?</label><br>
+        <input type="radio" name="q13" value="MIT"> A. Adaptar la estrategia de negocio a las nuevas tendencias tecnológicas <br>
+        <input type="radio" name="q13" value="RocaSalvatella"> B. Reaccionar rápidamente a las demandas del mercado <br>
+        <input type="radio" name="q13" value="Rogers"> C. Mantener una innovación constante y una estrategia ágil <br>
+        <input type="radio" name="q13" value="Incipy"> D. Utilizar herramientas digitales para mejorar la competitividad <br>
+      </div>
+
+      <!-- Pregunta 14 -->
+      <div>
+        <label>14. ¿Qué innovaciones considera clave para su crecimiento?</label><br>
+        <input type="radio" name="q14" value="MIT"> A. Incorporar tecnologías emergentes en la cadena de valor <br>
+        <input type="radio" name="q14" value="RocaSalvatella"> B. Introducir soluciones tecnológicas personalizadas <br>
+        <input type="radio" name="q14" value="Rogers"> C. Desarrollar productos y servicios basados en la innovación continua <br>
+        <input type="radio" name="q14" value="Incipy"> D. Adoptar nuevas tecnologías que mejoren la eficiencia de los procesos <br>
+      </div>
+  
+      <!-- Pregunta 15 -->
+      <div>
+        <label>15. ¿Cómo espera que la innovación impacte en su negocio?</label><br>
+        <input type="radio" name="q15" value="MIT"> A. Mejorando la competitividad mediante tecnologías avanzadas <br>
+        <input type="radio" name="q15" value="RocaSalvatella"> B. Fomentando la cultura de innovación a nivel organizacional <br>
+        <input type="radio" name="q15" value="Rogers"> C. Impulsando la creación de valor mediante innovación continua <br>
+        <input type="radio" name="q15" value="Incipy"> D. Mejorando la productividad y calidad de productos <br>
+      </div>
+
+      <!-- Pregunta 16 -->
+      <div>
+        <label>16. ¿Cómo desea mejorar su propuesta de valor?</label><br>
+        <input type="radio" name="q16" value="MIT"> A. Personalizando productos y servicios para satisfacer al cliente <br>
+        <input type="radio" name="q16" value="RocaSalvatella"> B. Aumentando la eficiencia operativa <br>
+        <input type="radio" name="q16" value="Rogers"> C. Innovando continuamente para ofrecer productos que generen valor <br>
+        <input type="radio" name="q16" value="Incipy"> D. Integrando soluciones digitales que mejoren la experiencia del cliente <br>
+      </div>
+
+      <!-- Pregunta 17 -->
+      <div>
+        <label>17. ¿Qué estrategias de marketing digital planea adoptar?</label><br>
+        <input type="radio" name="q17" value="MIT"> A. Implementar campañas digitales centradas en la personalización de la oferta <br>
+        <input type="radio" name="q17" value="RocaSalvatella"> B. Utilizar herramientas de automatización de marketing <br>
+        <input type="radio" name="q17" value="Rogers"> C. Desarrollar una estrategia de marketing basada en datos <br>
+        <input type="radio" name="q17" value="Incipy"> D. Integrar tecnologías digitales en la estrategia de marketing <br>
+      </div>
+
+      <!-- Pregunta 18 -->
+      <div>
+        <label>18. ¿Cómo espera que la tecnología influya en su modelo de negocio?</label><br>
+        <input type="radio" name="q18" value="MIT"> A. Mejorando la eficiencia operativa mediante la digitalización <br>
+        <input type="radio" name="q18" value="RocaSalvatella"> B. Creando nuevos puntos de contacto con los clientes a través de la tecnología <br>
+        <input type="radio" name="q18" value="Rogers"> C. Transformando el modelo de negocio mediante la adopción de tecnologías <br>
+        <input type="radio" name="q18" value="Incipy"> D. Utilizando la tecnología para globalizar el negocio y mejorar la propuesta de valor <br>
+      </div>
+ 
+      <!-- Pregunta 19 -->
+      <div>
+        <label>19. ¿Cómo planea adaptarse a los cambios del mercado?</label><br>
+        <input type="radio" name="q19" value="MIT"> A. Incorporando herramientas digitales para mantenerse competitivo <br>
+        <input type="radio" name="q19" value="RocaSalvatella"> B. Ajustando rápidamente procesos para responder a las demandas del mercado <br>
+        <input type="radio" name="q19" value="Rogers"> C. Innovando constantemente y utilizando datos para prever cambios <br>
+        <input type="radio" name="q19" value="Incipy"> D. Digitalizando los procesos para mejorar la eficiencia operativa <br>
+      </div>
+  
+      <!-- Pregunta 20 -->
+      <div>
+        <label>20. ¿Qué valor le da a la colaboración con otros actores del sector?</label><br>
+        <input type="radio" name="q20" value="MIT"> A. La colaboración es clave para compartir conocimiento y mejorar la eficiencia <br>
+        <input type="radio" name="q20" value="RocaSalvatella"> B. La colaboración es importante para mantener una cultura de innovación <br>
+        <input type="radio" name="q20" value="Rogers"> C. Trabajar con socios permite aprovechar oportunidades de innovación <br>
+        <input type="radio" name="q20" value="Incipy"> D. Colaborar con otros actores permite mejorar los procesos <br>
+      </div>
+
+      <!-- Pregunta 21 -->
+      <div>
+        <label>21. ¿Cómo desea incorporar nuevas tecnologías en su día a día?</label><br>
+        <input type="radio" name="q21" value="MIT"> A. Digitalizando completamente los procesos operativos <br>
+        <input type="radio" name="q21" value="RocaSalvatella"> B. Incorporando herramientas digitales en cada área funcional <br>
+        <input type="radio" name="q21" value="Rogers"> C. Adoptando nuevas tecnologías para facilitar decisiones basadas en datos <br>
+        <input type="radio" name="q21" value="Incipy"> D. Integrando la tecnología en los procesos internos para mejorar la eficiencia <br>
+      </div>
+  
+      <!-- Pregunta 22 -->
+      <div>
+        <label>22. ¿Qué cambios espera en su enfoque hacia el mercado?</label><br>
+        <input type="radio" name="q22" value="MIT"> A. Adaptarse a las tendencias tecnológicas y diversificar la oferta de productos <br>
+        <input type="radio" name="q22" value="RocaSalvatella"> B. Innovar en la estrategia comercial para ofrecer productos personalizados <br>
+        <input type="radio" name="q22" value="Rogers"> C. Utilizar análisis de datos para adaptar la oferta a nuevas demandas <br>
+        <input type="radio" name="q22" value="Incipy"> D. Transformar la estrategia de mercado mediante la digitalización <br>
+      </div>
+
+      <!-- Pregunta 23 -->
+      <div>
+        <label>23. ¿Qué cambios espera en su estrategia de liderazgo?</label><br>
+        <input type="radio" name="q23" value="MIT"> A. Fomentar una cultura de innovación y adaptabilidad <br>
+        <input type="radio" name="q23" value="RocaSalvatella"> B. Desarrollar un liderazgo ágil y flexible <br>
+        <input type="radio" name="q23" value="Rogers"> C. Capacitar a los líderes para usar datos e innovación <br>
+        <input type="radio" name="q23" value="Incipy"> D. Fomentar el liderazgo digital para guiar la transformación de la empresa <br>
+      </div>
+
+      <!-- Pregunta 24 -->
+      <div>
+        <label>24. ¿Qué valor espera ofrecer a sus empleados?</label><br>
+        <input type="radio" name="q24" value="MIT"> A. Oportunidades de crecimiento mediante la formación en habilidades digitales <br>
+        <input type="radio" name="q24" value="RocaSalvatella"> B. Un entorno de trabajo ágil y flexible que fomente la innovación <br>
+        <input type="radio" name="q24" value="Rogers"> C. Capacitación en el uso de herramientas digitales <br>
+        <input type="radio" name="q24" value="Incipy"> D. Un entorno de trabajo colaborativo y digital <br>
+      </div>
+
+      <!-- Pregunta 25 -->
+      <div>
+        <label>25. ¿Qué mejoras espera en la comunicación interna de su equipo?</label><br>
+        <input type="radio" name="q25" value="MIT"> A. Mejorar la colaboración mediante tecnologías digitales <br>
+        <input type="radio" name="q25" value="RocaSalvatella"> B. Fomentar una cultura organizacional ágil con autonomía <br>
+        <input type="radio" name="q25" value="Rogers"> C. Utilizar herramientas digitales para mejorar la transparencia <br>
+        <input type="radio" name="q25" value="Incipy"> D. Implementar tecnologías de comunicación digital que promuevan colaboración <br>
+      </div>
+
+      <!-- Pregunta 26 -->
+      <div>
+        <label>26. ¿Cómo desea medir el éxito de sus iniciativas de transformación digital?</label><br>
+        <input type="radio" name="q26" value="MIT"> A. Estableciendo KPIs claros relacionados con la mejora operativa <br>
+        <input type="radio" name="q26" value="RocaSalvatella"> B. Utilizando indicadores que midan el impacto en la personalización del servicio <br>
+        <input type="radio" name="q26" value="Rogers"> C. Evaluando el impacto en la satisfacción del cliente y crecimiento en innovación <br>
+        <input type="radio" name="q26" value="Incipy"> D. Midiendo el rendimiento de los procesos digitalizados <br>
+      </div>
+ 
+      <!-- Pregunta 27 -->
+      <div>
+        <label>27. ¿Cómo planea involucrar a sus empleados en el proceso de cambio?</label><br>
+        <input type="radio" name="q27" value="MIT"> A. Fomentando una cultura de innovación con participación activa <br>
+        <input type="radio" name="q27" value="RocaSalvatella"> B. Capacitando a los empleados en competencias digitales <br>
+        <input type="radio" name="q27" value="Rogers"> C. Involucrando a los empleados en el desarrollo de ideas <br>
+        <input type="radio" name="q27" value="Incipy"> D. Integrando a los empleados en la transformación digital mediante capacitación <br>
+      </div>
+
+      <!-- Pregunta 28 -->
+      <div>
+        <label>28. ¿Qué rol desea que tenga la sostenibilidad en su modelo de negocio?</label><br>
+        <input type="radio" name="q28" value="MIT"> A. Incorporar prácticas sostenibles en la cadena de valor <br>
+        <input type="radio" name="q28" value="RocaSalvatella"> B. Fomentar una cultura organizacional que integre la sostenibilidad <br>
+        <input type="radio" name="q28" value="Rogers"> C. Utilizar la innovación digital para crear productos sostenibles <br>
+        <input type="radio" name="q28" value="Incipy"> D. Integrar la sostenibilidad en el enfoque digital del negocio <br>
+      </div>
+
+      <button type="submit" class="btn btn-gradient btn-lg btn-block">Enviar</button>
+
+  </form>
+
+  
+    <!-- Mensaje de procesamiento superpuesto -->
+    <div id="overlay" class="overlay">
+        <div class="loading-message">
+            <div class="loader"></div> <!-- Aquí se muestra el círculo de carga -->
+            <h2>Estamos analizando tus respuestas para recomendarte el mejor modelo de transformación digital...</h2>
+        </div>
+    </div>
+
+    <!-- Resultado modal -->
+    <div id="resultadoModal" class="resultado-modal">
+        <div class="resultado-content">
+            <h2 id="resultado"></h2>
+            <button id="cerrarResultado">Cerrar</button>
+        </div>
+    </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
+
