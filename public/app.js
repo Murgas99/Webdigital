@@ -17,11 +17,18 @@ document.getElementById('encuestaForm').addEventListener('submit', function(even
     const nombreResponsable = document.getElementById('nombreResponsable').value;
     const nombreEmpresa = document.getElementById('nombreEmpresa').value;
     const nit = document.getElementById('nit').value;
-    
+
+    // Validar campos de texto
+    if (nombreResponsable.trim() === "" || nombreEmpresa.trim() === "" || nit.trim() === "") {
+        alert("Por favor, complete todos los campos: Nombre del Responsable, Nombre de la Empresa, y NIT.");
+        overlay.style.visibility = 'hidden';
+        return;
+    }
+
     let mit = 0, rocaSalvatella = 0, rogers = 0, incipy = 0;
     let respuestas = []; // Array para almacenar las respuestas seleccionadas
 
-    // Recorrer cada pregunta y sumar puntos para el modelo correspondiente
+    // Recorrer cada pregunta y verificar que todas han sido respondidas
     for (let i = 1; i <= 28; i++) {
         const respuestaSeleccionada = document.querySelector(`input[name="q${i}"]:checked`);
         if (respuestaSeleccionada) {
@@ -32,7 +39,9 @@ document.getElementById('encuestaForm').addEventListener('submit', function(even
             else if (modelo === 'Rogers') rogers++;
             else if (modelo === 'Incipy') incipy++;
         } else {
-            respuestas.push('No respondido'); // Agregar "No respondido" si la pregunta no fue respondida
+            alert(`Por favor, responde la pregunta ${i}.`);
+            overlay.style.visibility = 'hidden';
+            return;
         }
     }
 
@@ -47,7 +56,6 @@ document.getElementById('encuestaForm').addEventListener('submit', function(even
     .then(response => response.text())
     .then(data => {
         console.log(data); // Muestra el mensaje de éxito o error
-        
     })
     .catch(error => {
         console.error("Error al guardar los datos en Google Sheets:", error);
