@@ -1,9 +1,9 @@
 // Definir las URLs de las guías alojadas en OneDrive
 const urlsGuia = {
-    MIT: 'https://unilibrebog-my.sharepoint.com/:b:/g/personal/andresa-murgasv_unilibre_edu_co/EacOGIlkc7NJnNtMNK4RPHIB_-VrphpjygI0OZXH4CuCwg?e=KjyKj8', // URL de la guía MIT en OneDrive
-    RocaSalvatella: 'https://unilibrebog-my.sharepoint.com/:b:/g/personal/andresa-murgasv_unilibre_edu_co/EW1OzLgjP9RBkr3-nzkZVBYBaeuE6jBYZzkoM9IQte2zvw?e=oywjwZ', // URL de la guía RocaSalvatella en OneDrive
-    Rogers: 'https://unilibrebog-my.sharepoint.com/:b:/g/personal/andresa-murgasv_unilibre_edu_co/EYY_IqhlGjZHinxFLgfBP9gB4F3mTf53vDM5jaa-OoFOtQ?e=tOT6xT', // URL de la guía Rogers en OneDrive
-    Incipy: 'https://unilibrebog-my.sharepoint.com/:b:/g/personal/andresa-murgasv_unilibre_edu_co/EeIpv3J1LcdOj2mnr9V7Gx8Blq0QXWUf1nY0jJXuOZMpWg?e=9H96U6' // URL de la guía Incipy en OneDrive
+    MIT: 'https://unilibrebog-my.sharepoint.com/:b:/g/personal/andresa-murgasv_unilibre_edu_co/EXQKJITOrFxHiHBXW0i3yh8BN-nPPJW64WKNkJ4MS5xlVw?e=Plgh2m', // URL de la guía MIT en OneDrive
+    RocaSalvatella: 'https://unilibrebog-my.sharepoint.com/:b:/g/personal/andresa-murgasv_unilibre_edu_co/Eb6xIn-ZdMJDu_KerjUGFUUBC7bgsbmrep-pnPo9ME4ccg?e=pKz3Ba', // URL de la guía RocaSalvatella en OneDrive
+    Rogers: 'https://unilibrebog-my.sharepoint.com/:b:/g/personal/andresa-murgasv_unilibre_edu_co/Ea51jcLnZsZDgLuR2V0dtGEBXBRa-WCT6oKvP2ghbP4ngA?e=qo3i19', // URL de la guía Rogers en OneDrive
+    Incipy: 'https://unilibrebog-my.sharepoint.com/:b:/g/personal/andresa-murgasv_unilibre_edu_co/EVSERhVUQ2xGqWwr4iiBk88BuVD10292i7_2srHy6zX1ZQ?e=bxyWYk' // URL de la guía Incipy en OneDrive
 };
 
 document.getElementById('encuestaForm').addEventListener('submit', function(event) {
